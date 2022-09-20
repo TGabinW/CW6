@@ -2,7 +2,7 @@ Class Work project
 
 ```mermaid
 classDiagram
-    IAnimal..|>Animal
+    Animal..|>IAnimal
     Animal <|-- Dog
     Animal <|-- Cat
     Animal <|-- Cow
