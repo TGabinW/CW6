@@ -7,12 +7,12 @@ classDiagram
     Animal <|-- Cow
     Animal ..|> IAnimal()
     class Dog{
-    IAnimal Speak(Woof) ..|> Dog
+        + Ianimal Speak(Woof)
     }
     class Cat{
-    IAnimal Speak(Mew) ..|> Cat
+        + IAnimal Speak(Mew)
     }
     class Cow{
-    IAnimal Speak(Moo) ..|> Cow
+        + IAnimal Speak(Moo)
     }
 ```
