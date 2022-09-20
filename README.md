@@ -3,7 +3,7 @@ Class Work project
 ```mermaid
 classDiagram
     IAnimal<|..Animal
-    Animal: + Speak()
+    IAnimal: + Speak()
    
     Animal <|-- Dog
     Animal <|-- Cat
