@@ -6,8 +6,9 @@ classDiagram
     Animal <|-- Cat
     Animal <|-- Cow
     Animal: + IAnimal
+    IAnimal: Speak()
     class Dog{
-        + IAnimal Speak(Woof)
+        +  Speak(Woof)
     }
     class Cat{
         + IAnimal Speak(Mew)
