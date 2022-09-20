@@ -2,7 +2,9 @@ Class Work project
 
 ```mermaid
 classDiagram
-    Animal..|>IAnimal
+    IAnimall<|..Animal
+    Animal: Speak()
+   
     Animal <|-- Dog
     Animal <|-- Cat
     Animal <|-- Cow
