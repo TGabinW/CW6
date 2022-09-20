@@ -11,9 +11,9 @@ classDiagram
         +  Speak(Woof)
     }
     class Cat{
-        + IAnimal Speak(Mew)
+        + Speak(Mew)
     }
     class Cow{
-        + IAnimal Speak(Moo)
+        + Speak(Moo)
     }
 ```
