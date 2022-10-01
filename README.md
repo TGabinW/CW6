@@ -18,3 +18,4 @@ classDiagram
         + Speak(Moo)
     }
 ```
+![image](https://user-images.githubusercontent.com/111113016/193410453-668bba80-7758-47d1-ad3f-4841d9010383.png)
